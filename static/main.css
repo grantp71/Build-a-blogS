@@ -1,0 +1,82 @@
+body {
+    font-family: Veranda, Geneva, sans-serif;
+    font-size: 12px;
+
+    width: 800px;
+    margin: 0 auto;
+    padding: 6px;
+    color: #333;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.error {
+    color: red;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+}
+
+label + label {
+    margin-top: 18px;
+}
+
+input[type=text] {
+    width: 600px;
+    font-size: 18px;
+    padding: 3px;
+    font-family: sans-serif;
+}
+
+textarea {
+    width: 500px;
+    height: 500px;
+    font-size: 14px;
+    font-family: monospace;
+}
+
+input[type=submit] {
+    font-size: 20px
+}
+
+.main-title {
+    display: block;
+    color: #222;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+
+.post + .post {
+  margin-top: 20px;
+}
+
+.post-heading {
+    position: relative;
+    border-bottom: 3px solid #667;
+}
+
+.post-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.post-date {
+    font-size: 20px;
+    right: 0px;
+    bottom: 0px;
+    color: #999;
+
+}
+
+.post-content {
+    margin-top: 8px;
+}
